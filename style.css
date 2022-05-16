@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.big-cont{
+    display: grid;
+}
+
+.left-box{
+    display: grid;
+    position: absolute;
+    background-color: rgb(37, 37, 37);
+    padding: 15px 15px;
+    border-radius: 10px;
+    top: 100px;
+    left: 45%;
+}
+
+.left-box i{
+    margin: 10px 5px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 18px;
+}
+
+.left-box i:hover{
+    color: darkorange;
+}
+
+.form-cont{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    
+}
+
+.text-l{
+    box-sizing: border-box;
+    background-color: rgb(37, 37, 37);
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 15px 50px;
+    color: darkorange;
+}
+
+
+.text-l::placeholder{
+    font-size: 18px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.form-cont i {
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    padding: 15px 20px;
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.form-cont i:hover {
+    background-color: rgb(190, 190, 190);
+    color:rgb(37, 37, 37) ;
+}
+
+.div-cont{
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(2, 1fr);
+    height:300px;
+    width: 28%;
+    overflow: scroll;
+    overflow-x: hidden;
+    top: 170px;
+    left: 49.5%;
+    
+}
+
+.div-cont::-webkit-scrollbar{
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+}
+
+.div-cont::-webkit-scrollbar-thumb{
+    background-color: darkorange;
+    border-radius: 10px;
+}
+.div-cont div{
+    background-color: rgb(37, 37, 37);
+    margin: 10px;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    
+}
+
+.div-cont div:hover{
+    background-color: rgb(190, 190, 190);
+    color:rgb(37, 37, 37);
+
+}
+
+.yellow{
+    color:darkorange
+}
+
+.all{
+    display: none;
+}
