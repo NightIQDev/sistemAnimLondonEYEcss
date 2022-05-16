@@ -407,6 +407,8 @@ const anim = [
 
 ]
 
+
+// ELIMINAR ESTA LINEA DE CODIGO
 let allDiv = document.querySelector('.lol')
 
 let divi = document.querySelector('.all')
@@ -420,7 +422,7 @@ allDiv.addEventListener('click', ()=>{
     }
 })
 
-
+// ELIMINAR ESTA LINEA DE CODIGO
 
 
 
